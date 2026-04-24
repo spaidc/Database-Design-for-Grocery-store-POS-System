@@ -53,9 +53,3 @@ The system is built on Microsoft SQL Server. Below is a high-level overview of t
 ### Tech Stack
 * **DBMS:** Microsoft SQL Server (T-SQL)
 * **Tools:** SSMS (SQL Server Management Studio), dbdiagram.io
-    IF EXISTS ( ... ) 
-    BEGIN
-        ROLLBACK TRANSACTION;
-        RAISERROR ('Error: Insufficient stock...', 16, 1);
-    END
-END
